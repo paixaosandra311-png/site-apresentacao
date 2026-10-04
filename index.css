@@ -1,0 +1,89 @@
+body{
+    background-color: pink;
+    color: palevioletred;
+
+}
+
+a{
+    color: rgb(240, 22, 142);
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.menu-btn{
+    display: none;
+}
+
+
+
+@media (max-width: 600px){
+
+    .menu-btn{
+    display: block;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    }
+
+    .menu-links{
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu-links.aberto{
+        display: flex;
+    }
+
+    .perfis {
+    flex-direction: column;
+}
+
+.card {
+    width: auto;
+}
+}
+
+.perfis {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card button {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+

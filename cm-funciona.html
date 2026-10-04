@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empreendedoras da Beleza</title>
+    <link rel="stylesheet" href="./cm-funciona.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <button class="menu-btn">☰</button>
+
+        <div class="menu-links">
+            <a href="./index.html">Início</a>
+            <a href="./cm-funciona.html">Como funciona</a>
+            <a href="./sobre.html">Sobre</a>
+        </div>
+    </nav>
+</header>
+
+    <h1>E como nosso site funciona?</h1>
+    <p>Nosso site funciona da seguinte forma:</p>
+    <h2>Para Profissionais</h2>
+    <p>Você cria seu perfil com portfólio, imagens de seu trabalho, preços, sua localização e seus meios de contato. Assim as clientes tem mais facilidade de encontralas e de verificar seus trabalhos e podendo deixar avaliações do seu trabalho o que deixa seu perfil mais atraente.</p>
+    <h2>Para clientes</h2>
+    <p>Você etra no site em busca de uma profissional e consegue encontrá-la de forma fácil e eficiente. VocÊ pesquisa o trabalho que quer (cílios, unha, cabelo, sobrancelha, etc.) e põe sua localização fazendo assim com que apareça profissionais perto de você. Você pode ver seus trabalhos e avaliações, podendo assim escoher a que mais gostar.</p>
+
+    <script>
+    const botao = document.querySelector(".menu-btn");
+    const menu = document.querySelector(".menu-links");
+
+    botao.addEventListener("click", function() {
+        menu.classList.toggle("aberto");
+    });
+</script>
+
+</body>
+</html>

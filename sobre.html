@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empreendedoras da Beleza</title>
+    <link rel="stylesheet" href="./sobre.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <button class="menu-btn">☰</button>
+
+        <div class="menu-links">
+            <a href="./index.html">Início</a>
+            <a href="./cm-funciona.html">Como funciona</a>
+            <a href="./sobre.html">Sobre</a>
+        </div>
+    </nav>
+</header>
+
+    <h1>Quem somos e porque existimos?</h1>
+    <p>Nós somos duas estudantes de programação que decidimos criar um site para facilitar a vida das profissionais. Nós analisamos seus problemas e dificuldades e decidimos facilitar para elas.</p>
+    <p>Nossa ideia principal é ajudar na organização e na visibilidade pois são os maiores problemas que percebemos, mas também temos outras funcionalidades que ajudam no dia a dia delas.</p>
+
+    <script>
+    const botao = document.querySelector(".menu-btn");
+    const menu = document.querySelector(".menu-links");
+
+    botao.addEventListener("click", function() {
+        menu.classList.toggle("aberto");
+    });
+</script>
+
+</body>
+</html>

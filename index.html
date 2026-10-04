@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empreendedoras da beleza</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <button class="menu-btn">☰</button>
+
+        <div class="menu-links">
+        <a href="./index.html">Início</a>
+        <a href="./cm-funciona.html">Como funciona</a>
+        <a href="./sobre.html">Sobre</a>
+        </div>
+        </nav>
+    </header>
+
+    <div class="logo">
+    <img src="./E-removebg-preview.png" alt="logo">
+
+    
+        <h1>Empreendedoras da Beleza</h1>
+        </div>
+        <main>
+        <h2>Um site direcionado expecificamente para profissionais da beleza!</h2>
+        <p>tudo o que você procura em um só lugar.</p>
+    </main>
+    <hr>
+
+    <section class="profi">
+
+        <section class="profi">
+
+    <h1>Ache sua profissional!</h1>
+    <p>Procure por localização ou trabalho.</p>
+
+    <input type="text" placeholder="O que você procura?">
+    <br><br>
+
+    <input type="text" placeholder="Onde você está?">
+    <br><br>
+
+    <input type="button" value="Procurar">
+
+    <hr>
+
+       <h2>Profissionais em destaque</h2>
+       <p>Conheça algumas profissionais da nossa plataforma.</p>
+
+<div class="perfis">
+
+    <div class="card">
+        <h3>Sandra Paixão</h3>
+        <p><small>Nail designer</small></p>
+        <p>⭐ 4,5</p>
+        <p>📍 Lomba do Pinheiro</p>
+        <button>Ver perfil</button>
+    </div>
+
+    <div class="card">
+        <h3>Eduarda Amaral</h3>
+        <p><small>Designer de sobrancelhas</small></p>
+        <p>⭐ 4,7</p>
+        <p>📍 Lomba do Pinheiro</p>
+        <button>Ver perfil</button>
+    </div>
+
+    <div class="card">
+        <h3>Ana Lopes</h3>
+        <p><small>Lash designer</small></p>
+        <p>⭐ 5,0</p>
+        <p>📍 Partenon</p>
+        <button>Ver perfil</button>
+    </div>
+
+</div>
+    
+    </section>
+
+        
+
+    <script>
+        const botao = document.querySelector(".menu-btn");
+        const menu = document.querySelector(".menu-links");
+
+        botao.addEventListener("click", function() {
+            menu.classList.toggle("aberto");
+        });
+    </script>
+
+
+</body>
+</html>
